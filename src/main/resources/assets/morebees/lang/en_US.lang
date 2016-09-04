@@ -1,0 +1,76 @@
+//species
+for.bees.species.rock=Rocky
+for.bees.species.hardened=Hardened
+for.bees.species.obsidian=Obsidian
+for.bees.species.lapis=Lapis
+for.bees.species.dirt=Dirty
+for.bees.species.clay=Clay
+for.bees.species.redsand=Sandy
+for.bees.species.redstone=Redstone
+for.bees.species.emerald=Emerald
+for.bees.species.diamond=Diamond
+for.bees.species.metallic=Metallic
+for.bees.species.iron=Iron
+for.bees.species.copper=Copper
+for.bees.species.tin=Tin
+for.bees.species.gold=Golden
+for.bees.species.silver=Silver
+for.bees.species.lead=Lead
+for.bees.species.radioactive=Radioactive
+for.bees.species.uranium=Uranic
+for.bees.species.plutonium=Plutonic
+for.bees.species.prismarine=Prismarine
+for.bees.species.apocalyptic=Apocalyptic
+for.bees.species.wither=Withering
+for.bees.species.netherstar=Wither
+
+for.bees.species.aluminium=Aluminium
+for.bees.species.ruby=Ruby
+for.bees.species.sapphire=Sapphire
+
+//tool tips
+item.for.bee.modifier.mutationModifier=Mutation Rate: %.2fx
+item.for.bee.modifier.lifeSpanModifier=LifeSpan: %.2fx
+
+//hives
+tile.hive.name=Rock Hive
+
+//flowers
+for.flowers.ore=Ore
+for.flowers.tnt=TNT
+for.flowers.water=Water Plant
+for.flowers.redstone=Redstone
+for.flowers.emerald=Emerald
+for.flowers.diamond=Diamond
+for.flowers.uranium=Uranium
+
+
+//effects
+forestry.allele.wither=Wither
+forestry.allele.Radiation=Radiation
+
+//items
+item.diamondFragment.name=Diamond Fragment
+item.emeraldFragment.name=Emerald Fragment
+item.nether_starFragment.name=Nether Star Fragment
+
+item.CombRock.name=Rocky Comb
+item.CombDirt.name=Dirty Comb
+item.CombWither.name=Withering Comb
+
+item.dustIron.name=Iron Dust
+item.dustGold.name=Gold Dust
+item.dustCopper.name=Copper Dust
+item.dustTin.name=Tin Dust
+item.dustSilver.name=Silver Dust
+item.dustLead.name=Lead Dust
+item.dustAluminium.name=Aluminium Dust
+
+item.frameSweet.name=Sweet Frame
+item.frameCooled.name=Super Cooled Frame
+item.frameMutating.name=Mutating Frame
+
+
+
+
+
