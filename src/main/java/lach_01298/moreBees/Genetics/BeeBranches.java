@@ -135,6 +135,22 @@ public enum BeeBranches implements IBranchDefinition
 			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.FERTILITY, EnumAllele.Fertility.LOW);
 			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.EFFECT, Register.effectWither);
 		}
+	},
+	Slime("Slimeus") 
+	{
+		@Override
+		protected void setBranchProperties(IAllele[] alleles) 
+		{
+			
+			AlleleHelper.instance.set(alleles, EnumBeeChromosome.FLOWER_PROVIDER, Register.FlowerTypeSlime);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.CAVE_DWELLING, false);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.TERRITORY, EnumAllele.Territory.AVERAGE);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.LIFESPAN, EnumAllele.Lifespan.NORMAL);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.HUMIDITY_TOLERANCE, EnumAllele.Tolerance.DOWN_1);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.TEMPERATURE_TOLERANCE, EnumAllele.Tolerance.BOTH_1);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.FERTILITY, EnumAllele.Fertility.NORMAL);
+			AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.EFFECT, Register.effectSlimey);
+		}
 	};
 	
 	 

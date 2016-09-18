@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_TTmcAG58EeaPK9pdmxY8cA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_TTmcAW58EeaPK9pdmxY8cA" bindingContexts="_TTwNs258EeaPK9pdmxY8cA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EnergyManager.java&quot; tooltip=&quot;ForestryMC-mc-1.10/src/main/java/forestry/energy/EnergyManager.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ForestryMC-mc-1.10/src/main/java/forestry/energy/EnergyManager.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PluginEnergy.java&quot; tooltip=&quot;ForestryMC-mc-1.10/src/main/java/forestry/energy/PluginEnergy.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ForestryMC-mc-1.10/src/main/java/forestry/energy/PluginEnergy.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;HEAD&quot; tooltip=&quot;C:\Users\Lachlan\git\morebees\.git\HEAD&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/Lachlan/git/morebees/.git/HEAD&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MoreBees.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ItemRegistryCore.java&quot; tooltip=&quot;ForestryMC-mc-1.10/src/main/java/forestry/core/items/ItemRegistryCore.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ForestryMC-mc-1.10/src/main/java/forestry/core/items/ItemRegistryCore.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PluginCore.java&quot; tooltip=&quot;ForestryMC-mc-1.10/src/main/java/forestry/core/PluginCore.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ForestryMC-mc-1.10/src/main/java/forestry/core/PluginCore.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;PluginManager.java&quot; tooltip=&quot;ForestryMC-mc-1.10/src/main/java/forestry/plugins/PluginManager.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ForestryMC-mc-1.10/src/main/java/forestry/plugins/PluginManager.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Forestry.java&quot; tooltip=&quot;ForestryMC-mc-1.10/src/main/java/forestry/Forestry.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/ForestryMC-mc-1.10/src/main/java/forestry/Forestry.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OreDic.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/modCopat/OreDic.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/modCopat/OreDic.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MoreBeesItems.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/item/MoreBeesItems.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/item/MoreBeesItems.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BasicItem.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/item/BasicItem.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/item/BasicItem.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LoadMods.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/modCopat/LoadMods.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/modCopat/LoadMods.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RecipesCrafting.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/recipes/RecipesCrafting.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/recipes/RecipesCrafting.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RecipesCentrifuge.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/recipes/RecipesCentrifuge.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/recipes/RecipesCentrifuge.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;RecipesSmelting.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/recipes/RecipesSmelting.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/recipes/RecipesSmelting.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BeeSpecies.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/Genetics/BeeSpecies.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/Genetics/BeeSpecies.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MoreBees.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ItemFrame.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/item/ItemFrame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/item/ItemFrame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ShinyItem.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/item/ShinyItem.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/item/ShinyItem.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_TTmcAW58EeaPK9pdmxY8cA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_TTmcAm58EeaPK9pdmxY8cA" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -90,9 +90,9 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_TTmcEW58EeaPK9pdmxY8cA" containerData="7500" selectedElement="_TTmcEm58EeaPK9pdmxY8cA">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_TTmcEm58EeaPK9pdmxY8cA" containerData="7500" selectedElement="_TTmcE258EeaPK9pdmxY8cA" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_TTmcE258EeaPK9pdmxY8cA" elementId="org.eclipse.ui.editorss" containerData="7898" ref="_TTmdQG58EeaPK9pdmxY8cA"/>
-                <children xsi:type="basic:PartSashContainer" xmi:id="_TTmcFG58EeaPK9pdmxY8cA" containerData="2102" selectedElement="_TTmcF258EeaPK9pdmxY8cA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_TTmcEm58EeaPK9pdmxY8cA" containerData="7423" selectedElement="_TTmcE258EeaPK9pdmxY8cA" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_TTmcE258EeaPK9pdmxY8cA" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_TTmdQG58EeaPK9pdmxY8cA"/>
+                <children xsi:type="basic:PartSashContainer" xmi:id="_TTmcFG58EeaPK9pdmxY8cA" containerData="1000" selectedElement="_TTmcF258EeaPK9pdmxY8cA">
                   <children xsi:type="basic:PartStack" xmi:id="_TTmcFW58EeaPK9pdmxY8cA" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" toBeRendered="false" containerData="5000">
                     <tags>newtablook</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_TTmcFm58EeaPK9pdmxY8cA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" toBeRendered="false" ref="_TTmd1258EeaPK9pdmxY8cA"/>
@@ -106,7 +106,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_TTmcG258EeaPK9pdmxY8cA" elementId="bottom" containerData="2500" selectedElement="_TTmcIG58EeaPK9pdmxY8cA">
+              <children xsi:type="basic:PartStack" xmi:id="_TTmcG258EeaPK9pdmxY8cA" elementId="bottom" containerData="2577" selectedElement="_TTmcIG58EeaPK9pdmxY8cA">
                 <tags>newtablook</tags>
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_TTmcHG58EeaPK9pdmxY8cA" elementId="org.eclipse.ui.views.ProblemView" ref="_TTmdqW58EeaPK9pdmxY8cA"/>
@@ -116,6 +116,7 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_TTmcIG58EeaPK9pdmxY8cA" elementId="org.eclipse.ui.console.ConsoleView" ref="_TTmdsG58EeaPK9pdmxY8cA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_TTmcIW58EeaPK9pdmxY8cA" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_TTmduW58EeaPK9pdmxY8cA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_TTmcIm58EeaPK9pdmxY8cA" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_TTmdum58EeaPK9pdmxY8cA"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_xaoX8XvYEea5yP_6ISeGjw" elementId="org.eclipse.jdt.callhierarchy.view" ref="_xaoX8HvYEea5yP_6ISeGjw"/>
               </children>
             </children>
           </children>
@@ -140,34 +141,18 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_TTmdQG58EeaPK9pdmxY8cA" elementId="org.eclipse.ui.editorss" selectedElement="_TTmdQW58EeaPK9pdmxY8cA">
-      <children xsi:type="basic:PartStack" xmi:id="_TTmdQW58EeaPK9pdmxY8cA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_TTmdQm58EeaPK9pdmxY8cA">
+      <children xsi:type="basic:PartStack" xmi:id="_TTmdQW58EeaPK9pdmxY8cA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_GmdR8HvYEea5yP_6ISeGjw">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_TTmdQm58EeaPK9pdmxY8cA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MoreBees.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MoreBees.java&quot; partName=&quot;MoreBees.java&quot; title=&quot;MoreBees.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;2965&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_GmdR8HvYEea5yP_6ISeGjw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MoreBees.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MoreBees.java&quot; partName=&quot;MoreBees.java&quot; title=&quot;MoreBees.java&quot; tooltip=&quot;MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MoreBees/src/main/java/lach_01298/moreBees/MoreBees.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1837&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_TTmdQ258EeaPK9pdmxY8cA" elementId="#CompilationUnitEditorContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitEditorContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-            <tags>popup:#AbstractTextEditorContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_TTmdRG58EeaPK9pdmxY8cA" elementId="#CompilationUnitRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#CompilationUnitRulerContext</tags>
-            <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-            <tags>popup:#AbstractTextEditorRulerContext</tags>
-          </menus>
-          <menus xsi:type="menu:PopupMenu" xmi:id="_TTmdRW58EeaPK9pdmxY8cA" elementId="#OverviewRulerContext">
-            <tags>menuContribution:popup</tags>
-            <tags>popup:#OverviewRulerContext</tags>
-          </menus>
         </children>
       </children>
     </sharedElements>
@@ -346,6 +331,16 @@
       </menus>
       <toolbar xmi:id="_TTmd6m58EeaPK9pdmxY8cA" elementId="org.eclipse.egit.ui.ReflogView" visible="false"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_xaoX8HvYEea5yP_6ISeGjw" elementId="org.eclipse.jdt.callhierarchy.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Call Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/call_hierarchy.gif" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view search_scope_type=&quot;1&quot;/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Java</tags>
+      <menus xmi:id="_xaxh4HvYEea5yP_6ISeGjw" elementId="org.eclipse.jdt.callhierarchy.view">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_xaxh4XvYEea5yP_6ISeGjw" elementId="org.eclipse.jdt.callhierarchy.view" visible="false"/>
+    </sharedElements>
     <trimBars xmi:id="_TTmd6258EeaPK9pdmxY8cA" elementId="org.eclipse.ui.main.toolbar">
       <children xsi:type="menu:ToolBar" xmi:id="_TTmd7G58EeaPK9pdmxY8cA" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -353,7 +348,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TTmd7m58EeaPK9pdmxY8cA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aZEid29DEeaghdfYCetDHA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_TTwTU258EeaPK9pdmxY8cA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_OzYvd30-Eeadeod0FDTxjQ" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_TTwTU258EeaPK9pdmxY8cA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TTmd_G58EeaPK9pdmxY8cA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -380,7 +375,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TTmeP258EeaPK9pdmxY8cA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_aZNsaW9DEeaghdfYCetDHA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TTwSzG58EeaPK9pdmxY8cA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_OzYvgX0-Eeadeod0FDTxjQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_TTwSzG58EeaPK9pdmxY8cA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_TTmeSm58EeaPK9pdmxY8cA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

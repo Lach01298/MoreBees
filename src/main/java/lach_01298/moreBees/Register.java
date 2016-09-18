@@ -1,12 +1,14 @@
 package lach_01298.moreBees;
 
+import java.util.List;
 import java.util.Locale;
+
 import lach_01298.moreBees.Genetics.BeeSpecies;
 import lach_01298.moreBees.block.BlockHive;
 import lach_01298.moreBees.hives.MoreBeesHiveDescription;
 import lach_01298.moreBees.hives.MoreBeesHiveType;
 import lach_01298.moreBees.item.MoreBeesItems;
-import lach_01298.moreBees.modCopat.LoadMods;
+import lach_01298.moreBees.util.LoadMods;
 import lach_01298.moreBees.util.OreDicPreferences;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -16,6 +18,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 import forestry.api.apiculture.EnumBeeChromosome;
 import forestry.api.apiculture.FlowerManager;
 import forestry.api.apiculture.IAlleleBeeEffect;
@@ -60,8 +63,12 @@ public class Register
 	public static final String FlowerWater = "Water";
 	public static final String FlowerTNT = "TNT";
 	public static final String FlowerType = "flowers";
+	public static final String FlowerSlime = "Slime";
+	
+	
 	public static IAlleleBeeEffect effectWither;
 	public static IAlleleBeeEffect effectRadiation;
+	public static IAlleleBeeEffect effectSlimey;
 	//
 	public static IAlleleFlowers FlowerTypeOre;
 	public static IAlleleFlowers FlowerTypeDiamond;
@@ -70,6 +77,7 @@ public class Register
 	public static IAlleleFlowers FlowerTypeUranium;
 	public static IAlleleFlowers FlowerTypeWater;
 	public static IAlleleFlowers FlowerTypeTNT;
+	public static IAlleleFlowers FlowerTypeSlime;
 	
 	//hives
 	public static BlockHive beeHive;
@@ -91,10 +99,26 @@ public class Register
 		flowerRegistry.registerAcceptableFlower(Blocks.REDSTONE_ORE, FlowerRedstone);
 		flowerRegistry.registerAcceptableFlower(Blocks.WATERLILY, FlowerWater);
 		flowerRegistry.registerAcceptableFlower(Blocks.TNT, FlowerTNT);
+		flowerRegistry.registerAcceptableFlower(Blocks.SLIME_BLOCK, FlowerSlime);
 		
-		if(LoadMods.enableRadioactive)
+		
+		if(LoadMods.enableTinkers)
 		{
-			flowerRegistry.registerAcceptableFlower(OreDicPreferences.getBlock("oreUranium"), FlowerUranium);
+			List<ItemStack> list = OreDictionary.getOres("blockSlime");
+			for(ItemStack block : list)
+			{
+				flowerRegistry.registerAcceptableFlower(Block.getBlockFromItem(block.getItem()), FlowerSlime);
+			}
+		}
+		
+		
+		if(LoadMods.enableUranium)
+		{
+			List<ItemStack> list = OreDictionary.getOres("oreUranium");
+			for(ItemStack block : list)
+			{
+				flowerRegistry.registerAcceptableFlower(Block.getBlockFromItem(block.getItem()), FlowerUranium);
+			}	
 		}
 		
 		//tweak
@@ -113,10 +137,11 @@ public class Register
 		FlowerTypeWater = AlleleManager.alleleFactory.createFlowers(MoreBees.MOD_ID, FlowerType, FlowerWater, Flowers.WATER.getValue(), true, EnumBeeChromosome.FLOWER_PROVIDER);
 		FlowerTypeTNT = AlleleManager.alleleFactory.createFlowers(MoreBees.MOD_ID, FlowerType, FlowerTNT, Flowers.TNT.getValue(), true, EnumBeeChromosome.FLOWER_PROVIDER);
 		FlowerTypeUranium = AlleleManager.alleleFactory.createFlowers(MoreBees.MOD_ID, FlowerType, FlowerUranium, Flowers.URANIUM.getValue(), true, EnumBeeChromosome.FLOWER_PROVIDER);
+		FlowerTypeSlime = AlleleManager.alleleFactory.createFlowers(MoreBees.MOD_ID, FlowerType, FlowerSlime, Flowers.SLIME.getValue(), true, EnumBeeChromosome.FLOWER_PROVIDER);
 		
 		effectWither = new AlleleEffectPotion("wither", true, MobEffects.WITHER, 400);
 		effectRadiation = new AlleleEffectPotion("Radiation", true, MobEffects.HUNGER, 400);
-		
+	    effectSlimey = new AlleleEffectPotion("Slimey", true, MobEffects.JUMP_BOOST, 400);;
 	}
 	public static void RegisterHives()
 	{

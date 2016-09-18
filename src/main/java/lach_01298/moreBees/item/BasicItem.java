@@ -16,7 +16,7 @@ public class BasicItem extends Item implements ItemModelProvider {
 
 	public BasicItem(String name) {
 		this.name = name;
-		setUnlocalizedName(name);
+		setUnlocalizedName(MoreBees.MOD_ID+"."+name);
 		setRegistryName(name);
 		
 	}

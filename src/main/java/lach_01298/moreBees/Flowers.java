@@ -14,8 +14,8 @@ public enum Flowers implements IAlleleValue<FlowerProvider>
 	REDSTONE(Register.FlowerRedstone,true),
 	URANIUM(Register.FlowerUranium,true),
 	WATER(Register.FlowerWater),
-	TNT(Register.FlowerTNT, true);
-	
+	TNT(Register.FlowerTNT, true),
+	SLIME(Register.FlowerSlime,true);
 
 	private final FlowerProvider value;
 	private final boolean dominant;

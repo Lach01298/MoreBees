@@ -20,12 +20,12 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.10.2-1.0.1"
+version = "1.10.2-1.1.2"
 group= "lach_01298.morebees" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "morebees"
 
 minecraft {
-    version = "1.10.2-12.18.1.2050"
+    version = "1.10.2-12.18.1.2091"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
@@ -39,8 +39,9 @@ minecraft {
 
 dependencies {
     
-    compile files('C:/Users/Lachlan/Documents/CodeProjects/minecraft/Src from other mods/forestry_1.10.2-5.2.8.231.jar')  
-    // you may put jars on which you depend on in ./libs
+    compile files('/forestry_1.10.2-5.2.8.231.jar') //add file location  
+    
+	// you may put jars on which you depend on in ./libs
     // or you may define them like so..
     //compile "some.group:artifact:version:classifier"
     //compile "some.group:artifact:version"

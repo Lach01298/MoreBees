@@ -18,7 +18,6 @@ for.bees.species.silver=Silver
 for.bees.species.lead=Lead
 for.bees.species.radioactive=Radioactive
 for.bees.species.uranium=Uranic
-for.bees.species.plutonium=Plutonic
 for.bees.species.prismarine=Prismarine
 for.bees.species.apocalyptic=Apocalyptic
 for.bees.species.wither=Withering
@@ -27,6 +26,15 @@ for.bees.species.netherstar=Wither
 for.bees.species.aluminium=Aluminium
 for.bees.species.ruby=Ruby
 for.bees.species.sapphire=Sapphire
+for.bees.species.stringy=Stringy
+for.bees.species.slimey=Slimey
+for.bees.species.blueslimey=Blue Slimey
+for.bees.species.purpleslimey=Purple Slimey
+for.bees.species.magmaslimey=Magma Slimey
+for.bees.species.cobalt=Cobalt
+for.bees.species.ardite=Ardite
+
+
 
 //tool tips
 item.for.bee.modifier.mutationModifier=Mutation Rate: %.2fx
@@ -43,32 +51,36 @@ for.flowers.redstone=Redstone
 for.flowers.emerald=Emerald
 for.flowers.diamond=Diamond
 for.flowers.uranium=Uranium
+for.flowers.slime=Slime
 
 
 //effects
 forestry.allele.wither=Wither
 forestry.allele.Radiation=Radiation
+forestry.allele.Slimey=Slimey
 
 //items
 item.diamondFragment.name=Diamond Fragment
 item.emeraldFragment.name=Emerald Fragment
 item.nether_starFragment.name=Nether Star Fragment
 
-item.CombRock.name=Rocky Comb
-item.CombDirt.name=Dirty Comb
-item.CombWither.name=Withering Comb
+item.morebees.CombRock.name=Rocky Comb
+item.morebees.CombDirt.name=Dirty Comb
+item.morebees.CombWither.name=Withering Comb
+item.morebees.CombSlime.name=Slimey Comb
 
-item.dustIron.name=Iron Dust
-item.dustGold.name=Gold Dust
-item.dustCopper.name=Copper Dust
-item.dustTin.name=Tin Dust
-item.dustSilver.name=Silver Dust
-item.dustLead.name=Lead Dust
-item.dustAluminium.name=Aluminium Dust
 
-item.frameSweet.name=Sweet Frame
-item.frameCooled.name=Super Cooled Frame
-item.frameMutating.name=Mutating Frame
+item.morebees.dustIron.name=Iron Dust
+item.morebees.dustGold.name=Gold Dust
+item.morebees.dustCopper.name=Copper Dust
+item.morebees.dustTin.name=Tin Dust
+item.morebees.dustSilver.name=Silver Dust
+item.morebees.dustLead.name=Lead Dust
+item.morebees.dustAluminium.name=Aluminium Dust
+
+item.morebees.frameSweet.name=Sweet Frame
+item.morebees.frameCooled.name=Super Cooled Frame
+item.morebees.frameMutating.name=Mutating Frame
 
 
 

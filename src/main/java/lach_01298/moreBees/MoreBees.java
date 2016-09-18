@@ -26,7 +26,6 @@ import net.minecraftforge.oredict.OreDictionary;
 import lach_01298.moreBees.Genetics.BeeSpecies;
 import lach_01298.moreBees.block.MoreBeesBlocks;
 import lach_01298.moreBees.item.MoreBeesItems;
-import lach_01298.moreBees.modCopat.LoadMods;
 import lach_01298.moreBees.recipes.RecipesCarpenter;
 import lach_01298.moreBees.recipes.RecipesCentrifuge;
 import lach_01298.moreBees.recipes.RecipesCrafting;
@@ -41,15 +40,14 @@ import lach_01298.moreBees.util.*;
 public class MoreBees {
 
 	public static final String MOD_ID = "morebees";
-	public static final String VERSION = "1.10.2-1.0.1";
+	public static final String VERSION = "1.10.2-1.1.2";
 	public static final String MCVERSION = "1.10.2";
 
 	// The instance of your mod that Forge uses.
 	@Instance("morebees")
 	public static MoreBees instance;
 
-	// world gen
-	// WorldEventManager WorldGen = new WorldEventManager();
+	
 
 	// Says where the client and server 'proxy' code is loaded.
 	@SidedProxy(clientSide = "lach_01298.moreBees.ClientProxy", serverSide = "lach_01298.moreBees.CommonProxy")
@@ -71,7 +69,7 @@ public class MoreBees {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 
-		LoadMods.loadMods();
+		
 		
 		RecipesCrafting.registerRecipes();
 		RecipesSmelting.registerRecipes();
@@ -89,7 +87,8 @@ public class MoreBees {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) 
 	{
-		 
+		System.out.println("UU");
+		System.out.println(OreDictionary.getOres("dustIron")); 
 		
 	}
 

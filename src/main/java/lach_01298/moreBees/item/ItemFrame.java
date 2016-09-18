@@ -30,7 +30,7 @@ public class ItemFrame extends ItemForestry implements IHiveFrame, ItemModelProv
 		
 		this.beeModifier = new HiveFrameBeeModifier(geneticDecay, lifespan ,mutationRate, production);
 		this.name = name;
-		setUnlocalizedName(name);
+		setUnlocalizedName(MoreBees.MOD_ID+"."+name);
 		setRegistryName(name);
 	}
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>MoreBees</name>
+	<name>More Bees</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,4 +14,21 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.link0</name>
+			<type>2</type>
+			<location>C:/Users/Lachlan/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.1.2091/start</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Users/Lachlan/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.1.2050/start</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/Users/Lachlan/.gradle/caches/minecraft/net/minecraftforge/forge/1.10.2-12.18.1.2076/start</location>
+		</link>
+	</linkedResources>
 </projectDescription>

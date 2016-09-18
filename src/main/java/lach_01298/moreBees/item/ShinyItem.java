@@ -16,7 +16,7 @@ public class ShinyItem extends Item implements ItemModelProvider {
 
 	public ShinyItem(String name) {
 		this.name = name;
-		setUnlocalizedName(name);
+		setUnlocalizedName(MoreBees.MOD_ID+"."+name);
 		setRegistryName(name);
 		
 	}
