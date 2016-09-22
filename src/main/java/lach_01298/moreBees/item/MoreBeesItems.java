@@ -44,7 +44,7 @@ public class MoreBeesItems
 		CombWither = register(new BasicItem("CombWither").setCreativeTab(Tabs.tabApiculture));
 		CombSlime = register(new BasicItem("CombSlime").setCreativeTab(Tabs.tabApiculture));
 		
-		DiamondFrag = registerOreItem(new BasicItem("diamondFragment").setCreativeTab(Tabs.tabApiculture),"nuggetDiamod");
+		DiamondFrag = registerOreItem(new BasicItem("diamondFragment").setCreativeTab(Tabs.tabApiculture),"nuggetDiamond");
 		EmeraldFrag = registerOreItem(new BasicItem("emeraldFragment").setCreativeTab(Tabs.tabApiculture),"nuggetEmerald");
 		NetherFrag = register(new ShinyItem("nether_starFragment").setCreativeTab(Tabs.tabApiculture));
 		
