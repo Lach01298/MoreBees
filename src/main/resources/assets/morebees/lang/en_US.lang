@@ -60,9 +60,9 @@ forestry.allele.Radiation=Radiation
 forestry.allele.Slimey=Slimey
 
 //items
-item.diamondFragment.name=Diamond Fragment
-item.emeraldFragment.name=Emerald Fragment
-item.nether_starFragment.name=Nether Star Fragment
+item.morebees.diamondFragment.name=Diamond Fragment
+item.morebees.emeraldFragment.name=Emerald Fragment
+item.morebees.nether_starFragment.name=Nether Star Fragment
 
 item.morebees.CombRock.name=Rocky Comb
 item.morebees.CombDirt.name=Dirty Comb
