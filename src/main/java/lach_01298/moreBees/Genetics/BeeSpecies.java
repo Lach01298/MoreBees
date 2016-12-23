@@ -918,6 +918,277 @@ public enum BeeSpecies implements IBeeDefinition {
         protected void registerMutations() {
             BeeManager.beeMutationFactory.createMutation(EnderyBee, EnderieBee, getTemplate(), 6);
         }
+    },
+    //Colours branch - lapis is not here because it already has a bee
+    WHITY(BeeBranches.COLOUR, "Whity", false, new Color(0xffffff), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,15), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,15), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(CultivatedBee, DiligentBee, getTemplate(), 6);
+        }
+    },
+    BLACKY(BeeBranches.COLOUR, "Blacky", false, new Color(0x191616), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,0), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,0), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(CultivatedBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    REDY(BeeBranches.COLOUR, "Redy", false, new Color(0x963430), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,1), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,1), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(BlackyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    GREENY(BeeBranches.COLOUR, "Greeny", false, new Color(0x35661B), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,2), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,2), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(RedyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    BROWNY(BeeBranches.COLOUR, "Browny", false, new Color(0x4F321F), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,3), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,3), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(GreenyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    PURPLY(BeeBranches.COLOUR, "Purply", false, new Color(0x7E3DB5), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,5), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,5), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(BrownyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    CYANY(BeeBranches.COLOUR, "Cyany", false, new Color(0x2E6E89), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,6), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,6), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(PurplyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    LIGHTG(BeeBranches.COLOUR, "Lightg", false, new Color(0x9AA1A1), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,7), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,7), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(CyanyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    GRAYNY(BeeBranches.COLOUR, "Grayny", false, new Color(0x404040), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,8), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,8), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(LightgBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    PINKY(BeeBranches.COLOUR, "Pinky", false, new Color(0xD08499), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,9), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,9), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(GraynyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    LIMY(BeeBranches.COLOUR, "Limy", false, new Color(0x41AE38), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,10), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,10), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(PinkyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    YELLOWY(BeeBranches.COLOUR, "Yellowy", false, new Color(0xB1A627), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,11), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,11), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(LimyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    LIGHTB(BeeBranches.COLOUR, "Lightb", false, new Color(0x6B8AC9), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,12), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,12), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(YellowyBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    MAGENTY(BeeBranches.COLOUR, "Magenty", false, new Color(0xB350BC), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,13), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,13), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(LightbBee, WhityBee, getTemplate(), 20);
+        }
+    },
+    ORANGY(BeeBranches.COLOUR, "Orangy", false, new Color(0xDB7D3E), new Color(0xeeeeee)) {
+        @Override
+        protected void setSpeciesProperties(IAlleleBeeSpeciesBuilder beeSpecies) {
+            beeSpecies.addProduct(new ItemStack(Items.DYE, 1,14), 0.35f)
+                    .addProduct(new ItemStack(Items.DYE, 1,14), 0.20f)
+                    .setTemperature(EnumTemperature.NORMAL).setHumidity(EnumHumidity.NORMAL);
+        }
+
+        @Override
+        protected void setAlleles(IAllele[] template) {
+            AlleleHelper.instance.set(template, EnumBeeChromosome.SPEED, EnumAllele.Speed.NORMAL);
+        }
+
+        @Override
+        protected void registerMutations() {
+            BeeManager.beeMutationFactory.createMutation(MagentyBee, WhityBee, getTemplate(), 20);
+        }
     };
 
 
@@ -964,6 +1235,24 @@ public enum BeeSpecies implements IBeeDefinition {
     private static IAlleleBeeSpecies CopperBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesCopper");
     private static IAlleleBeeSpecies EnderyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesEndery");
     private static IAlleleBeeSpecies EnderieBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesEnderie");
+
+    private static IAlleleBeeSpecies WhityBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesWhity");
+    private static IAlleleBeeSpecies BlackyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesBlacky");
+    private static IAlleleBeeSpecies RedyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesRedy");
+    private static IAlleleBeeSpecies GreenyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesGreeny");
+    private static IAlleleBeeSpecies BrownyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesBrowny");
+    private static IAlleleBeeSpecies PurplyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesPurply");
+    private static IAlleleBeeSpecies CyanyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesCyany");
+
+    private static IAlleleBeeSpecies LightgBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesLightg");
+
+    private static IAlleleBeeSpecies GraynyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesGrayny");
+    private static IAlleleBeeSpecies PinkyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesPinky");
+    private static IAlleleBeeSpecies LimyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesLimy");
+    private static IAlleleBeeSpecies YellowyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesYellowy");
+    private static IAlleleBeeSpecies LightbBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesLightb");
+    private static IAlleleBeeSpecies MagentyBee = (IAlleleBeeSpecies) AlleleManager.alleleRegistry.getAllele(MoreBees.MOD_ID + ".speciesMagenty");
+
 
     private final IBranchDefinition branch;
     private final IAlleleBeeSpecies species;

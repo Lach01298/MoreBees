@@ -129,7 +129,7 @@ public enum BeeBranches implements IBranchDefinition {
             AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.EFFECT, Register.effectSlimey);
         }
     },
-    ENDER("Resourcery"){
+    ENDER("Enderius"){
         @Override
         protected void setBranchProperties(IAllele[] alleles) {
             AlleleHelper.instance.set(alleles, EnumBeeChromosome.NEVER_SLEEPS, true);
@@ -140,6 +140,16 @@ public enum BeeBranches implements IBranchDefinition {
             AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.TEMPERATURE_TOLERANCE, EnumAllele.Tolerance.BOTH_1);
             AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.FERTILITY, EnumAllele.Fertility.LOW);
             AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.EFFECT, Register.effectRadiation);
+        }
+    },
+    COLOUR("Colorius"){
+        @Override
+        protected void setBranchProperties(IAllele[] alleles) {
+            AlleleHelper.instance.set(alleles, EnumBeeChromosome.FLOWER_PROVIDER, EnumAllele.Flowers.VANILLA);
+            AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.LIFESPAN, EnumAllele.Lifespan.NORMAL);
+            AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.HUMIDITY_TOLERANCE, EnumAllele.Tolerance.NONE);
+            AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.TEMPERATURE_TOLERANCE, EnumAllele.Tolerance.NONE);
+            AlleleHelper.instance.set(defaultTemplate, EnumBeeChromosome.FERTILITY, EnumAllele.Fertility.NORMAL);
         }
     };
 
