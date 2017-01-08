@@ -36,6 +36,8 @@ public class Config
 
 	public static float mutationMultipler = 1.0f;
 
+	public static boolean useCarpenterCrafting = true;
+
 	public static void readConfig()
 	{
 		Configuration cfg = CommonProxy.config;
@@ -63,7 +65,7 @@ public class Config
 	{
 		cfg.addCustomCategoryComment(CATEGORY_GENERAL, "General configuration");
 		enableFrames = cfg.getBoolean("enableFrames", CATEGORY_GENERAL, enableFrames, "Set to false to disable More Bees frames e.g. mutating frame.");
-
+		useCarpenterCrafting = cfg.getBoolean("useCarpenterCrafting", CATEGORY_GENERAL, useCarpenterCrafting, "Set to false to craft fragments (diamonds, emeralds, nether stars) in a crafting table.");
 	}
 
 	private static void initWordGenConfig(Configuration cfg)
