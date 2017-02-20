@@ -18,7 +18,7 @@ public class WitherSkullJubilance implements IJubilanceProvider {
 
 		TileEntity tile;
 		do {
-			pos = pos.up();
+			pos = pos.down();
 			tile = world.getTileEntity(pos);
 		} while (tile instanceof IBeeHousing && pos.getY() > 0);
 
