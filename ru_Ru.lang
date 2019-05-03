@@ -1,0 +1,202 @@
+//species
+for.bees.species.rock=Каменная
+for.bees.species.hardened=Закаленная
+for.bees.species.obsidian=Обсидиановая
+for.bees.species.lapis=Лазуритная
+for.bees.species.dirt=Земляная
+for.bees.species.clay=Глинянная
+for.bees.species.redsand=Песчанная
+for.bees.species.redstone=Редстоуновая
+for.bees.species.emerald=Изумрудная
+for.bees.species.diamond=Алмазная
+for.bees.species.metallic=Металлическая
+for.bees.species.iron=Железная
+for.bees.species.copper=Медная
+for.bees.species.tin=Оловянная
+for.bees.species.gold=Золотая
+for.bees.species.silver=Серебрянная
+for.bees.species.lead=Свинцовая
+for.bees.species.radioactive=Радиоактивная
+for.bees.species.uranium=Урановая
+for.bees.species.prismarine=Призмариновая
+for.bees.species.apocalyptic=Апокалиптическая
+for.bees.species.wither=Губительная
+for.bees.species.netherstar=Иссушающая
+for.bees.species.quartz=Кварцевая
+for.bees.species.osmium=Осмиевая
+for.bees.species.draconic=Дракониевая
+for.bees.species.resonating=Резонирующий
+for.bees.species.yellorite=Йелоритовая
+for.bees.species.certus=Верная
+
+for.bees.species.aluminium=Алюминиевая
+for.bees.species.ruby=Рубиновая
+for.bees.species.sapphire=Сапфировая
+for.bees.species.stringy=Волокнистая
+for.bees.species.slimy=Слизистая
+for.bees.species.blueslimy=Синяя слизистая
+for.bees.species.purpleslimy=Фиолетовая слизистая
+for.bees.species.magmaslimy=Магма Слизистая
+for.bees.species.cobalt=Кобальтовая
+for.bees.species.ardite=Aрдитовая
+
+for.bees.species.sulfur=Серная
+for.bees.species.apatite=Апатитовая
+
+for.bees.species.nickel=Никелевая
+for.bees.species.platinum=Платиновая
+for.bees.species.iridium=Иридиевая
+for.bees.species.spectrite=Спектритовая
+
+
+//species descriptions
+morebees.description.speciesRock=Можно найти на больших площадях голого камня; обычно горы.
+
+morebees.description.speciesHardened=Пчелы - это сложная куча. Дождь или солнце они работают там больше всего.
+
+morebees.description.speciesObsidian=Плотный и жесткий.
+
+morebees.description.speciesLapis=Обычно производит лазурит.
+
+morebees.description.speciesDirt=Это землянная пчела!
+
+morebees.description.speciesClay=Эта пчела естественным образом создает влажные силикаты оксидов металлов (глину).
+
+morebees.description.speciesRedsand=Эта пчела естественным образом создает большое количество диоксида кремния (песка).
+
+morebees.description.speciesEmerald=Сельские жители особенно любят эту пчелу.
+
+morebees.description.speciesDiamond=Голубые блестящие камни!
+
+morebees.description.speciesRedstone=Эти пчелы извлекают небольшое количество красного камня из окружающей красной руды.
+
+morebees.description.speciesMetallic=Эти пчелы извлекают небольшое количество металла из окружающей руды.
+
+morebees.description.speciesIron=Эти пчелы любят превращать оксиды железа в железо.
+
+morebees.description.speciesCopper=Эти пчелы извлекают небольшое количество меди из окружающей руды.
+
+morebees.description.speciesTin=Эти пчелы извлекают небольшое количество олова из окружающей руды.
+
+morebees.description.speciesGold=Эти пчелы могут делать золото.
+
+morebees.description.speciesSilver=Эти пчелы могут сделать серебро.
+
+morebees.description.speciesLead=У этих пчел странная одержимость сбором токсичного свинца из окружающей среды.
+
+morebees.description.speciesRadioactive=Они питаются естественным распадом урана в земле.
+
+morebees.description.speciesUranium=Эти пчелы любят ГОРЯЧЕЕ! Буквально и радиоактивно.
+
+morebees.description.speciesPrismarine=Если бы эти пчелы умели плавать, они были бы рыбой.
+
+morebees.description.speciesApocalyptic=Предупреждение: не подходите!
+
+morebees.description.speciesWither=Было обнаружено, что в этом улье редко встречается череп скелета Визера, не каждый знает, где взять его.
+
+morebees.description.speciesNetherstar=Эти пчелы убивают всю жизнь вокруг них, чтобы создать там драгоценную звезду.
+
+morebees.description.speciesAluminium=Эти пчелы извлекают небольшое количество алюминия из окружающей руды.
+
+morebees.description.speciesRuby=Красные блестящие камни!
+
+morebees.description.speciesSapphire=Действительно синие блестящие камни!
+
+morebees.description.speciesStringy=Они создают длинные белковые пряди для создания своих ульев.
+
+morebees.description.speciesSlimy=Они создают много зеленой  слизи.
+
+morebees.description.speciesBlueslimy=Они создают много синей слизи.
+
+morebees.description.speciesPurpleslimy=Они создают много пурпурной слизи.
+
+morebees.description.speciesMagmaslimy=Они создают много горячей оранжевой слизи.
+
+morebees.description.speciesMagmaslimy=Они создают много горячей оранжевой слизи.
+
+morebees.description.speciesCobalt=Эти пчелы производят очень твердый металл.
+
+morebees.description.speciesArdite=Эти пчелы производят очень твердый металл.
+
+morebees.description.speciesApatite=Эта пчела берет питательные вещества из земли, чтобы создать удобрение.
+
+morebees.description.speciesSulphur=Вы можете почувствовать запах этих пчел на расстоянии в одну милю, потому что они производят вонючие соединения серы.
+
+morebees.description.speciesQuartz=Не бриллиант, но все еще блестящий.
+
+morebees.description.speciesDraconic=Эти пчелы могут победить Край.
+
+morebees.description.speciesOsmium=Эти пчелы очень техничны и трудолюбивы
+
+morebees.description.speciesResonating=Эти пчелы резонируют на Земле для выработки энергии
+
+morebees.description.speciesYellorite=Эти пчелы строят в экстремальных масштабах
+
+morebees.description.speciesCertus=Пчелы для цифровой эпохи
+
+morebees.description.speciesNickel=Эти пчелы создают металл, из которого получаются хорошие монеты
+
+morebees.description.speciesPlatinum=ООО Блестящий!
+
+morebees.description.speciesIridium=Эти пчелы довольно плотные, как металл, который они делают
+
+morebees.description.speciesSpectrite=Что заставляет этих пчел тикать?
+
+//tool tips
+item.for.bee.modifier.mutationModifier=Коэффициент мутации: %.2fx
+item.for.bee.modifier.lifeSpanModifier=Продолжительность жизни: %.2fx
+
+//hives
+tile.hive.name=Каменный улей
+
+//flowers
+for.flowers.ore=Руда
+for.flowers.tnt=TNT
+for.flowers.water=Водоросль
+for.flowers.redstone=Редстоун
+for.flowers.emerald=Изумруд
+for.flowers.diamond=Алмазные
+for.flowers.uranium=Уран
+for.flowers.slime=Слизь
+
+
+//effects
+forestry.allele.Wither=Иссушение
+forestry.allele.Radiation=Излучениезлучение
+forestry.allele.Slimy=Замедление
+
+//items
+item.morebees.diamondFragment.name=Алмазный фрагмент
+item.morebees.emeraldFragment.name=Изумрудный фрагмент
+item.morebees.nether_starFragment.name=Фрагмент Звезды Пустоты
+item.morebees.spectriteFragment.namе=Фрагмент Спектрита
+item.morebees.grainMetallic.name=Металлические зерна
+item.morebees.grainCrystal.name=Кристаллические зерна зерна
+item.morebees.grainSpectrite.name=Спектритовые зерна
+item.morebees.propolisMetallic.name=Металлический прополис
+item.morebees.propolisCrystal.name=Кристаллический Прополис
+item.morebees.propolisSpectrite.name=Спектритовый Прополис
+
+item.morebees.CombRock.name=Скалистые соты
+item.morebees.CombDirt.name=Земляные соты
+item.morebees.CombWither.name=Иссушающие соты
+item.morebees.CombSlime.name=Слизистые соты
+item.morebees.CombMetallic.name=Металлические соты
+item.morebees.CombCrystal.name=Кристальные соты
+item.morebees.CombSpectrite.name=Спектритовые соты
+
+item.morebees.dustIron.name=Железная пыль
+item.morebees.dustGold.name=Золотая пыль
+item.morebees.dustCopper.name=Медная пыль
+item.morebees.dustTin.name=Оловянная пыль
+item.morebees.dustSilver.name=Серебряная пыль
+item.morebees.dustLead.name=Свинцовая пыль
+item.morebees.dustAluminium.name=Алюминиевая пыль
+item.morebees.dustNickel.name=Никель Пыль
+item.morebees.dustPlatinum.name=Платиновая пыль
+item.morebees.dustIridium.name=Иридиевая пыль
+
+
+item.morebees.frameSweet.name=Сладкая рамка
+item.morebees.frameCooled.name=Суперохлаждаемая рамка
+item.morebees.frameMutating.name=Мутирующий фрейм
