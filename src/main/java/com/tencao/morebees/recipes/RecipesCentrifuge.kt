@@ -25,8 +25,7 @@ object RecipesCentrifuge {
                     ItemStack(Blocks.STONE, 1, 3), 0.5f,
                     ItemStack(Blocks.STONE, 1, 5), 0.5f,
                     OreDictUtil.getOreStack("dustStone"), 0.9f))
-        }
-        if (Loader.isModLoaded("IC2-Classic-Spmod")){
+        } else {
             RecipeManagers.centrifugeManager.addRecipe(20, ItemStack(MBItems.CombRock), ImmutableMap.of(
                     ModuleCore.getItems().beeswax.itemStack, 1.0f,
                     ItemStack(Blocks.COBBLESTONE), 0.9f,
