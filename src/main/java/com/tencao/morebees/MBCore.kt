@@ -17,7 +17,8 @@ object MBCore {
     const val VERSION = "1.12.2-2.0.1"
     const val DEPS = "required-after:forge@[14.23.4,);" +
             "required-after:forgelin@[1.7,);" +
-            "required-after:forestry@[5.8,);"
+            "required-after:forestry@[5.8,);" +
+            "after:thermalexpansion@[5.5,);"
 
     @SidedProxy(clientSide = "com.tencao.morebees.proxy.ClientProxy", serverSide = "com.tencao.morebees.proxy.CommonProxy")
     internal lateinit var proxy: CommonProxy
